@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box;
+
+}
+
+body{
+    background-image: url(bluebg.jpg);
+    background-size: cover;
+}
+
+h1{
+    color:white;
+    font-weight: bold;
+    font-size: 80px;
+    text-align:center;
+    position: fixed;
+    padding:100px 100px;
+    
+}
+
+#sign-up{
+    float:right;
+    font-weight: 600;
+    padding:100px 100px
+}
+.signup{
+    color:white;
+    text-align:right;
+    font-size: 20px;
+    float:right;
+}
+label{
+    padding:5px 5px;
+    margin:0 auto;
+    display:flex;
+}
+input{
+    margin-top: 10px 10px;
+    display:flex;
+}
+
+

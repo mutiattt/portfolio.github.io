@@ -1,0 +1,150 @@
+*{
+    box-sizing:border-box;
+
+}
+/*html{
+    height:100%;
+    width:100%;
+}*/
+body{
+    background-color: greenyellow;
+    height:100%;
+    padding: 20px 20px;
+    margin: 0 auto;
+
+}
+/*.back-ground{
+    background-color: greenyellow;
+} */
+
+
+
+.white{
+    background-color: white;
+    height:100%;
+    padding: 20px 20px;
+    margin-left:0;
+
+}
+.purple{
+    background-color: purple;
+    width:100%;
+    height:500px;
+    margin:20px 0px;
+    border-radius: 15px;
+    
+}
+
+h2{
+    text-align: left;
+    color:white;
+    font-size:50px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+.second{
+    padding-bottom:80px;
+}
+
+p{
+    color:white;
+    text-align:center;
+    font-size:20px;
+    padding: 0px 0px;
+}
+div.words{
+
+    line-height: 1em;
+    text-align:center;
+
+}
+.green{
+    background-color: greenyellow;
+    border-radius:10px;
+    height:55px;
+    width: 100%;
+    margin:10px 1px;
+    padding: 5px 2px;
+    
+
+}
+h3{
+    font-size:35px;
+    font-weight: bold;
+    margin:3px;
+    padding:1px 25px;
+    
+
+}
+
+.green  > a{
+    color:black;
+    position:absolute;
+    right:100px;
+    bottom:0px;
+    font-size: large;
+    text-decoration: none;
+    padding-bottom: 0px;
+    padding-top:1000px;
+}
+
+@media only screen and (min-width:1200px){
+    .green > a{
+        color:black;
+        position:absolute;
+        right:300px;
+        bottom:30px;
+        font-size: 25px;
+        text-decoration: none;
+        padding-bottom: 0px;
+        padding-top:10px;
+        font-weight: bold;
+    }
+
+    p{
+        text-align:center;
+        font-size:30px;
+    
+    }
+    .white{
+        background-color: white;
+        height:100%;
+        width:100%;
+        padding: 20px 20px;
+        margin-left:0;
+    
+    }
+    
+    @media only screen and  (min-width:300px) and (max-width:1200px){
+        .green > a{
+            color:black;
+            position:absolute;
+            right:300px;
+            bottom:30px;
+            font-size: 25px;
+            text-decoration: none;
+            padding-bottom: 0px;
+            padding-top:10px;
+            font-weight: bold;
+        }
+
+        p{
+            text-align:center;
+            font-size:30px;
+        
+        }
+
+        
+.white{
+    background-color: white;
+    height:100px;
+    padding: 20px 20px;
+    margin-left:0;
+
+}
+
+    
+    }
+    
+}
+    

@@ -1,0 +1,46 @@
+*{
+    box-sizing:border-box;
+
+}
+
+
+body{
+    background-image: url(bg.jpg.jpg);
+    background-size:contain;
+    
+}
+header{
+    text-align:center;
+    font-style:italic ;
+}
+
+h3{
+    background-color: orange;
+    width:fit-content;
+    border-radius: 10px;
+    margin:10px 40px;
+    padding:10px 10px;
+    font-style: italic;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+ul > li{
+    list-style: none;
+    line-height: 2em;
+    font-style:oblique;
+    font-weight: bold;
+    
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.caption{
+    margin-left:15px;
+}
